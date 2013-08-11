@@ -11,6 +11,11 @@
 </p>
 
 <p>
+  <strong>Address:</strong>
+  <%= @idea.address %>
+</p>
+
+<p>
   <strong>Picture:</strong>
 <%= image_tag(@idea.picture_url, :width => 600) if @idea.picture.present? %>
 <h3>Comments</h3>

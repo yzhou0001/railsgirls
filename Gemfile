@@ -12,8 +12,19 @@ group :production do
   gem 'rails_12factor'
 end
 
-
+# Use carriewave to upload and show a picture file
 gem 'carrierwave'
+# gem 'mini_magick', '3.5.0'
+
+gem 'rmagick', '2.13.2'
+
+
+# Use geocoder and gmaps4rails to place locations on a google map
+
+gem 'geocoder'
+gem 'gmaps4rails'
+
+# Use foreigner to add helpers to migrations and dumps foreign keys to schema.rb
 
 gem 'foreigner'
 
